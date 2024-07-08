@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jQuery.js"></script>
+</head>
+<body>
+    <h1>Grid</h1>
+    <div class="grid">
+        <div class="item"><h1>1</h1></div>
+        <div class="item"><h1>2</h1></div>
+        <div class="item"><h1>3</h1></div>
+        <div class="item"><h1>4</h1></div>
+        <div class="item"><h1>5</h1></div>
+        <div class="item"><h1>6</h1></div>
+    </div>
+    <div class="flex">
+        <div class="chap">
+            <h1>Can be placed anywhere</h1>
+            <div class="grid">
+                <div class="item"><h1>1</h1></div>
+                <div class="item"><h1>2</h1></div>
+                <div class="item"><h1>3</h1></div>
+                <div class="item"><h1>4</h1></div>
+                <div class="item"><h1>5</h1></div>
+                <div class="item" id="item6"><h1>6</h1></div>
+            </div>
+        </div>
+        <div class="chap">
+            <h1>Can be overlaped</h1>
+            <div class="grid">
+                <div class="item" id="item1"><h1>1</h1></div>
+                <div class="item"><h1>2</h1></div>
+                <div class="item"><h1>3</h1></div>
+                <div class="item"><h1>4</h1></div>
+                <div class="item"><h1>5</h1></div>
+                <div class="item" id="item6"><h1>6</h1></div>
+            </div>
+        </div>
+    </div>
+    <h1>Can be placed according to area</h1>
+    <div class="grid2">
+        <div class="item" id="it1"><h1>1</h1></div>
+        <div class="item" id="it2"><h1>2</h1></div>
+        <div class="item" id="it3"><h1>3</h1></div>
+        <div class="item" id="it4"><h1>4</h1></div>
+        <div class="item" id="it5"><h1>5</h1></div>
+        <div class="item" id="it6"><h1>6</h1></div>
+    </div>
+    <h1>Some properties</h1>
+    <h2>We can use justify-item align-item align-content and gap properties to style</h2>
+    <div class="grid3">
+        <div class="item"><h1>1</h1></div>
+        <div class="item"><h1>2</h1></div>
+        <div class="item"><h1>3</h1></div>
+        <div class="item"><h1>4</h1></div>
+        <div class="item"><h1>5</h1></div>
+        <div class="item"><h1>6</h1></div>
+    </div>
+</body>
+</html>
